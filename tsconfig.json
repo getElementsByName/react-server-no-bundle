@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "esnext",
+        "lib": ["es5", "es6", "esnext.asynciterable", "dom"],
+        "jsx": "preserve",
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true
+    }
+}
