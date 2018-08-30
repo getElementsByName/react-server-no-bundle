@@ -1,10 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import * as TestUtils from 'react-dom/test-utils';
-import { TsElement } from './TsElement';
+import { App } from './App';
 
-it('TsElement', () => {
+it('App', () => {
   expect(TestUtils.isElement(
-    <TsElement/>
+    <App/>
   )).toBeTruthy()
 })

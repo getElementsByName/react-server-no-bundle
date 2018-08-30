@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as ReactDOMServer from 'react-dom/server'
 import express from 'express'
-import { App } from "./app"
+import { App } from "./App"
 
 function runServer() {
     const app = express()
